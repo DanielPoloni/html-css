@@ -8,14 +8,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"     rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Placas de Video NVIDIA</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
-                <li><a href="#">Placas RTX</a></li>
+                <li><a href="#">RTX - Tecnologias</a></li>
                 <li><a href="#">RTX 4090</a></li>
                 <li><a href="#">RTX 4080</a></li>
                 <li><a href="#">RTX 4070</a></li>
@@ -50,6 +51,14 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'

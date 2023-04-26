@@ -78,6 +78,7 @@ article > p {
 img {
     display: block;
     margin: auto;
-    padding: 10px;
+    padding: 8px;
     width: 85vw;
+    max-width: 758px;
 }
