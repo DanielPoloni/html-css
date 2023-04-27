@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placas NVIDIA</title>
+    <title>RTX tecnologias</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"     rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
@@ -12,44 +12,91 @@
 </head>
 <body onresize="mudouTamanho()">
     <header>
-        <h1>Placas de Video NVIDIA</h1>
+        <h1>Tecnologia RTX</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
-                <li><a href="#">RTX - Tecnologias</a></li>
-                <li><a href="#">RTX 4090</a></li>
-                <li><a href="#">RTX 4080</a></li>
-                <li><a href="#">RTX 4070</a></li>
-                <li><a href="#">RTX 4070ti</a></li>
+                <li><a href="index.html" target="_self">RTX - Tecnologias</a></li>
+                <li><a href="rtx-4090.html" target="_self">RTX 4090</a></li>
+                <li><a href="rtx-4080.html" target="_self">RTX 4080</a></li>
+                <li><a href="rtx-4070.html" target="_self">RTX 4070</a></li>
+                <li><a href="rtx-4070ti.html" target="_self">RTX 4070ti</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <article>
-            <h2>NVIDIA GeForce RTX 4070</h2>
-            <p>
-                A NVIDIA apresentou, nesta quarta-feira (12), a nova placa de vídeo da empresa, GeForce RTX 4070. O modelo faz parte do segmento intermediário premium para games com a arquitetura Ada Lovelace, a mais recente da companhia, fabricada em 5 nm. A placa estará disponível para compra a partir de amanhã, 13 de abril.
-            </p>
-            <img src="imagens/geforce-rtx-4070.jpg" alt="rtx 4070">
-            <p>
-                A NVIDIA GeForce RTX 4070 conta com uma GPU AD104, com Tensor Cores de 4a geração e 5.888 núcleos CUDA. Segundo as especificações oficiais, a placa terá uma frequência base de atuação de 1920 MHz e clock turbo de 2475 MHz. No quesito memória, a nova placa possui 12 GB de memória GDDR6X e 36 MB L2.
-            </p>
-            <p>
-                Já na área de gasto de energia, a NVIDIA calcula que o gasto médio da RTX 4070 em games será de 186 W e o TGP será de 200 W.
-            </p>
-            <p>
-                Entre as funções disponíveis no novo modelo, a GeForce RTX 4070 também se aproveita do DLSS 3, que melhora consideravelmente o desempenho das placas em games, inclusive se comparado com versões anteriores da tecnologia. Além disso, a GPU conta com encoders AV1 e H.264.
-            </p>
-            <h2>Preço, disponibilidade e comparativos com outras gerações passadas</h2>
-            <p>
-                A NVIDIA lançou a NVIDIA GeForce RTX 4070 dia 13 de abril de 2023, o modelo já estará disponível para compra nas lojas, inclusive em território nacional. O preço sugerido no lançamento é de R$ 4.999,00.
-            </p>
-            <p>
-                O modelo chega ao mercado estrangeiro por US$ 599, mesmo valor pela qual a NVIDIA RTX 3070 Ti foi lançada, mas o modelo atual conta com especificações bastante superiores, o que a companhia classifica como um salto grande entre gerações.
-            </p>
+            <h2>O que é Ray Tracing?</h2>
 
+            <p>O Ray Tracing, tecnologia que usa “traçados de raios” para criar melhores efeitos de luz, não é bem uma novidade criada só agora para deixar os jogos mais realistas. A técnica existe há anos no cinema, mas ainda não podia ser aplicada, em tempo real, em games por limitações técnicas até então.</p>
+
+            <img src="imagens/rtx-image.jpg" alt="Exemplo de imagens com rtx on">
+
+            <p>A Nvidia trouxe o Ray Tracing para os games, com a chegada das placas de vídeo da família GeForce RTX Série 20, baseadas na nova arquitetura Turing. As GPUs processam essa tecnologia em alto desempenho (com mais efeitos) e resolução, pois possuem núcleos próprios de Ray Tracing (RT Cores).</p>
+
+            <p>Isso é um grande diferencial se formos comparar, por exemplo, com algumas placas GTX (da mesma fabricante) e seus núcleos tradicionais, que rodam o Ray Tracing por emulação.</p>
+
+            <p>Essa tecnologia marca um novo passo na evolução dos jogos eletrônicos. E não estamos falando apenas de games para computadores. Sony e Microsoft já anunciaram que sua próxima geração de consoles terá suporte ao Ray Tracing. Mas afinal de contas, como esses tais “traçados de raios” funcionam?</p>
+
+            <h2>O que é Ray Tracing</h2>
+
+            <p>De forma resumida, o Ray Tracing aplicado em jogos (e com RT Cores) usa inteligência artificial para criar, em tempo real, efeitos de luz e sombreamentos mais reais. Isso também vale na hora de gerar reflexos, refrações e iluminação geral mais verossímil fisicamente. A ideia é tornar a sensação de olhar para a TV (ou monitor) a mais próxima possível da experiência de se olhar por uma janela, no mundo real.</p>
+
+            <p>Parte desse alto processamento é graças à nova arquitetura Turing, que traz desempenho seis vezes maior que sua antecessora: a Pascal – ambas pertencentes à Nvidia.</p>
+
+            <p>A Turing tem como promessa dar suporte para jogos em 4K e a 60 quadros por segundo, mesmo em games mais avançados. Além disso, ela permite que os sombreadores concentrem o processamento em áreas físicas com muitos detalhes, aumentando a performance geral.</p>
+
+            <p>Agora, de forma mais específica, o Ray Tracing vem para substituir (com o tempo ou até algo mais avançado aparecer) a técnica conhecida como Rasterização, usada para gerar aqueles gráficos “realistas” que todos amamos, mas que na verdade não passam de uma projeção 2D na tela de um ambiente 3D.</p>
+
+            <img src="imagens/rasterização.jpg" alt="Exemplo de como funciona a técnica de rasterização">
+
+            <p>A Rasterização é um processo rápido e gera imagens de forma mais simples. Para quem joga faz um tempo, é fácil de lembrar da época em que os primeiros títulos em 3D eram bem quadradões e com técnicas de iluminação rudimentares. Às vezes, apenas alternando entre os tons das cores para dar uma ideia de sombreamento e profundidade.</p>
+
+            <p>É claro que isso mudou e melhorou (muito!) com o passar do tempo, mesmo sem o Ray Tracing ainda aplicado para jogos. Ao longo dos anos, várias técnicas foram criadas para dar uma polida no, não proposital, quase que constante visual estilo Minecraft.</p>
+
+            <p>Texturas de alta resolução, que já trazem muitos detalhes gravados, e “shadders” programáveis ajudaram, e ainda ajudam, a dar uma bela maquiada em todos os polígonos de um jogo.</p>
+
+            <p>Mas como dito antes, esses recursos (mesmo que eficazes, por vezes) ainda funcionam como ilusões e maquiagens nos games. Aplicar uma técnica de iluminação mais eficaz e natural a uma jogo parece coisa de cinema, e realmente é, só que agora não mais de forma exclusiva.</p>
+
+            <p>A tecnologia já foi usada, por exemplo, em produções como Exterminador do Futuro 2, Jurassic Park (o primeiro) e na animação Carros, da Pixar. A diferença, no caso do cinema, é que o “traçado de raios” é feito sobre imagens não interativas.</p>
+
+            <h2>Mas como adaptar o Ray Tracing para um jogo?</h2>
+
+            <p>Migrando para o universo dos jogos eletrônicos, passamos a lidar com variações de cor, luz, sombras e partículas sendo processadas em tempo real e de forma interativa. Ou seja, coisas podem explodir, se mover, aparecer, sumir e tudo isso gera perspectivas visuais diferentes.</p>
+
+            <p>Para o game manter a sensação de realismo, em nenhum momento uma sombra pode demorar demais para desaparecer (quando o objetivo que a gerava não está mais no lugar), por exemplo, ou todos os objetos parecerem feitos de cera, sem nenhum reflexo – mesmo sob um Sol brilhante.</p>
+
+            <p>O resultado final da utilização do Ray Tracing é incrível, mas é de se esperar que ele demande um poder de processamento gigantesco. No cinema, vários computadores são usados em conjunto e, mesmo assim, cada quadro pode levar horas para ser processado.</p>
+
+            <p>A técnica parecia ser muito pouco provável de chegar aos computadores domésticos e, consequentemente, aos jogos. Mas como condensar o trabalho de dezenas de computadores e ainda ter que lidar com o processamento, em tempo real, dessa iluminação?</p>
+
+            <p>O Ray Tracing adaptado para os games é resultado do trabalho de anos em engenharia de software. O desafio vencido foi o de criar ferramentas para levar essa técnica até os desenvolvedores de jogos. As novas placas de vídeo GeForce RTX, citadas antes, já são frutos desse esforço de engenharia e contam com um “super acelerador de raios” integrado.</p>
+
+            <img src="imagens/rtx-off.jpg" alt="Exemplo de imagem sem ray tracing aplicado">
+
+            <img src="imagens/rtx-on.jpg" alt="Exemplo de imagem com ray tracing aplicado">
+
+            <p>Gerar o Ray Tracing em tempo real é bem mais mérito do uso dessa técnica de forma inteligente do que desempenho da placa de vídeo. Mesmo com GPUs poderosíssimas, ainda não era possível gerar imagens, com o Ray Tracing, a 60 quadros por segundo.</p>
+
+            <p>O trabalho criativo desenvolvido foi encontrar uma nova abordagem para resolver essa questão. Com isso, ao invés de tentar fazer com que uma única placa processasse bilhões de raios (em tempo real, é bom lembrar), os engenheiros conseguiram usar somente um único raio por pixel. Quem faz o restante do trabalho agora é a inteligência artificial que “deduz” como seria a imagem final.</p>
+
+            <p>A tal inteligência artificial também ajuda a reduzir os ruídos da imagem, com o filtro “AI denoiser”, que acontecem ao se usar poucos raios. Dessa forma, a imagem apresentada tem a mesma qualidade de como se tivesse sido criada por milhares de raios por pixel.</p>
+
+            <p>E mais: usando o Ray Tracing, aliado à IA, é possível gerar efeitos de iluminação, reflexos e sombras até mesmo fora do raio de captura da câmera do jogo, por exemplo. Imagine poder enxergar um inimigo se aproximando (pelas suas costas) apenas olhando pelo reflexo da porta de um carro. A ideia é bem essa.</p>
+
+            <p>Confira, a seguir, a demonstração chamada “Back Stage”, da Luminous Productions, usando Ray Tracing:</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cmaPcGSHf3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <p>Por fim, o Ray Tracing para jogos é uma realidade, mesmo sendo um pouco cara para o consumidor final neste primeiro momento. Afinal de contas, é preciso investir em uma placa de vídeo com a tecnologia e em todo um computador que suporte tal GPU (monitor ou TV 4K também, para ver os efeitos das luzes com fidelidade).</p>
+
+            <p>A diferença gráfica é mesmo absurda e, certamente, esta é um tendência que estará presente nos próximos games mais avançados e não mais só no cinema.</p>
         </article>
     </main>
+    <footer>
+        <p>Matéria retidada do site <a href="https://tecnoblog.net/" target="_blanck" rel="external">tecnoblog.net</a></p> 
+        <p>site para finalidade de estudos</p>
+    </footer>
     <script>
         function mudouTamanho() {
             if (window.innerWidth >= 768) {
@@ -67,5 +114,7 @@
             }
         }
     </script>
+</body>
+</html>
 </body>
 </html>

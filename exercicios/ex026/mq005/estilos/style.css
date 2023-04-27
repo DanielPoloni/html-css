@@ -11,13 +11,14 @@ body, html {
 }
 
 header {
-    background-color: gray;
+    background-image: linear-gradient(to right, #b2f015e4, #79a30d );
 
 }
 
 header > h1 {
     padding: 10px;
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.426);
 }
 
 i#burguer {
@@ -53,7 +54,9 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: #79a30d;
+    transition-duration: 0.15s;
+    border: 2.5px solid black;
 }
 
 main {
@@ -72,13 +75,44 @@ article > h2 {
 article > p {
     text-align: justify;
     margin-bottom: 20px;
-    text-indent: 20px;
+    text-indent: 30px;
 }
 
 img {
     display: block;
     margin: auto;
     padding: 8px;
+    padding-bottom: 30px;
     width: 85vw;
     max-width: 758px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    padding-bottom: 30px;
+    width: 85vw;
+    max-width: 600px;
+}
+
+footer {
+    border: 2px solid black;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: none;
+    color: #79a30d;
 }
